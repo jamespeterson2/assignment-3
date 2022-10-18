@@ -84,13 +84,9 @@
   <section class="why_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
-        <h2>  Tools and Tech </h2>
+        <h2>  Tools and Technologies  </h2>
       </div>
-      <div class ="under_text">
-      <div>
-        <!-- Image -->
-        <img src="images\webscrapingflowchart.png" width="650" height="300"></a>
-      </div>
+
     </div>
       <div class="text_why">
 
@@ -98,43 +94,76 @@
 
         <br>
       <p>
-        In terms of the required software, hardware and tools needed to deliver this project, inspiration is taken from how price comparison websites are built and run. When establishing the data sources for the scholarship information, requesting access to APIs (Application Programming Interface) and data feeds directly from organisations such as RMIT would be unlikely due to issues of privacy and security. Therefore, a web scraping software could be implemented as it is useful in extracting data quickly and efficiently from multiple web page sources (Patel 2019), this software would then extract the necessary data defined by the criteria as long as the information is still available on the website. The software basically simulates a human browsing a website, it acts as a bot that automatically completes the data gathering process. With the targeted web page URL or list of URLs inputted, the server receives a request and responds with the HTML source code, with this the bot is able to retrieve the target data located on a node, the bot can then access and parse the data as instructed by the scraping code (Octoparse 2022). Depending on the configuration, the group of data will be organised into a structure and made available for download or transfer to our database.
-        </p>
+        For this project to be completed, we will need to request access to APIs (Application Programming Interface) from universities such as RMIT as an example, in order to access scholarship data however this may be unlikely due to privacy and security reasons. Because of this, we would need to utilize a web scraping program such as ScraperAPI which has 5000 API calls. This is a great tool for us as it is compatible with Mac and Windows which is required as our group members have both operating systems on their machines.
+      </p><br>
+      <p>
 
-        <p>
-          Whilst conducting web research it is apparent that there are many different web scraping software/tools to choose from. Moreover, there are several key factors to consider when making the choice, this includes:
-          <ul>
-  <li>Making sure the tool is compatible with our system as some only support Mac, Linux, or Windows</li>
-  <li>Pricing, at this 	stage we are primarily looking for tools with a free option/tier</li>
-  <li>Cloud service integration is a key aspect as we want to access the data across multiple devices at any given time</li>
-  <li>Difficulty in terms of learning how to use the tool and programming to work</li>
-  <li>Referring to RMIT’S privacy and security, we must make sure the tool is able to access RMIT’s websites without being blocked</li>
-</ul>
-        </p>
+For the python script the code editor utilized is sublime text, this is used as it is a preference of many in the group with multi line editing being a powerful feature. Also, for python to work, the most up to date python needs to be installed as it has access to many importable libraries such as BeautifulSoup which is used to web scrape. For this we can use Anaconda Prompt and then in that prompt libraries can then be installed. The script will also be run through PowerShell on Windows machines.
+
+</p>
+<br>
+<p>
+
+As our python skills are limited because the course is an introduction to IT and many of the group members have little experience with python coding, for websites that are formatted in a way that makes it difficult to scrape data from them using python due to drop down menus that have varying tag names in the HTML and CSS a web scraper tool known simply as Web Scraper can be used as a Chrome extension to allow us to get as many scholarships as possible.
+
+</p>
+<br>
+<div class ="under_text">
+<a href="https://webscraper.io/documentation/scraping-a-site">
+  <!-- Image -->
+  <img src="images\web.png" width="600" height="330">
+  <p>
+    Web Scraper extention
+  </p>
+</a>
+</div>
+
+<p>
+
+We will need to also use GitHub to host a collaborative website programming system for our group to write HTML and CSS code within Atom and upload it to a repository for members to see. This will be needed as we need to create a UI for the project to display it’s found scholarships. Because of previous assessment tasks taken by everyone within the group, everyone in the team has experience using both Atom and GitHub making the use of these software's easier to implement, because of this we also know it is compatible with both Windows and Mac operating systems.
+
+
+</p>
+<br>
+<div class ="under_text">
+
+  <!-- Image -->
+  <img src="images\github.png" width="600" height="200"></a>
+
+</div>
+<br>
+<p>
+
+To display the generated CSV file from the Web Scrapper on a webpage for users to see JavaScript will have to be utilized. To display the information in a neat table on a page first the CSV file will have to be converted to JSON (JavaScript Object Notation), to do this we took an already generated JavaScript file called Papa Parse which completes this function for us.
+<div class ="under_text">
+
+<div>
+  <!-- Image -->
+  <img src="images\code.png" width="600" height="800"></a>
+</div>
+</div>
+</p>
+<br>
+<p>
+
+Another piece of collaborative software we will need is Microsoft Teams and OneDrive to store our gathered Scraper information and any parts for the report for the whole assignment's requirements, this also is a piece of software that has been used by everyone within the team making it easy to utilize within out project.
+
+</p>
+<br>
+<div class ="under_text">
+
+<div>
+  <!-- Image -->
+  <img src="images\MicrosoftTeams.png" width="600" height="180"></a>
+</div>
+</div>
 
         <br>
         </div>
-        <div class ="under_text">
 
-        <div>
-          <!-- Image -->
-          <img src="images\ScaperAPI.png" width="600" height="270"></a>
-          <img src="images\Scrapy-Logo-big.png" width="600" height="270"></a>
-        </div>
-        </div>
         <div class="text_why">
 
-        <p>
-One of the tool options we have found is ScraperAPI, it is a web scraping tool that is able to handle proxies, CAPTCHAs and anti-bot protection, it has cloud service integration, offers free use for 5000 API calls, and boasts easy integration and customisation for developers (ScraperAPI 2022; Wise 2022). Another option that seemed to be popular online was Scrapy, it is an open-source framework for web scraping that is programmed in Python. Majority of the group is not too familiar with Python, thereby this needs to be learned in order to use this tool effectively, additionally this could be a valuable skill to learn that would assist us further during the design phase of the website’s function and ultimately for any future work and studies in IT.
-        </p>
 
-<p>
-  Once there is a third-party integration with RMIT's website and our service, there would be a need for APIs to enhance the capabilities of the website for the user, such as a detailed search function. Moreover, a cloud computing service such as AWS (Amazon Web Service) offers a free tier and would be valuable in terms of being scalable, secure, reliable and flexible when storing data, and deploying websites and apps. A dedicated role in developing the user interface (UI), as well as front-end and back-end would allow us to create and develop our service in a way for users to access easily and effectively.
-</p>
-
-<p>
-  A deliverable of this project would be the functioning website and the measure of success could be if a test user was able to use the UI with ease and able to gain value and insight into the scholarships available to them. Ease of use and accessibility can be provided via a search function that is capable of using a number of pre-defined filters and category selections, additionally the website should be able to display scholarships available to them through a list which directs and forwards them to the scholarship’s webpage for more information, all in quick succession. This will overall demonstrate the success of the web scraping tool and functionality of the website which will assist students take advantage of scholarships made available to them.
-</p>
 </div>
 <br>
 </div>
