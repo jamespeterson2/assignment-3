@@ -1,0 +1,29 @@
+body{
+  background-color: #430c0c1a;
+}
+table {
+  border-collapse: collapse;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgb(40 3 3);
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+th {
+  background: #441a1d;
+  color: #ffffff;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 10px 20px;
+  border-style: dotted;
+  border-color:#41191c0d;
+}
+
+tr:nth-child(even) {
+  background: #eeeeee;
+}
